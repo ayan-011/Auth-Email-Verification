@@ -18,7 +18,7 @@ const __dirname = path.resolve();
 // app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 
 const corsOptions = {
-	origin: process.env.FRONTEND_URL,
+	origin: process.env.CLIENT_URL,
 	methods: ["GET", "POST", "PUT", "DELETE"],
 	allowedHeaders: ["Content-Type", "authorizaiton"]
 }
